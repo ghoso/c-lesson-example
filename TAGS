@@ -1,0 +1,109 @@
+
+hello.c,42
+int main(int argc,char** argv){main3,20
+
+scope.c,78
+void increment(){increment3,20
+void main(int argc,char** argv){main13,162
+
+file-read.c,81
+#define BUFFER_SIZE BUFFER_SIZE3,20
+void main(int argc,char **argv){main5,45
+
+function.c,129
+int get_loop_num()get_loop_num8,126
+void show_output(int num){show_output19,296
+int main(int argc, char** argv){main31,472
+
+for.c,43
+int main(int argc, char** argv){main4,40
+
+data_struct.c,42
+int main(int argc,char** argv){main4,40
+
+sock_udp_cli.c,45
+int main(int argc, char *argv[])main11,193
+
+linklist.c,384
+typedef struct _cell_t_cell_t4,40
+  struct _cell_t *next;next6,65
+  int data;data7,89
+}cell_t;cell_t8,101
+cell_t g_cell;//セルの先頭（このセルにはデータを入れない）g_cell14,225
+int main(int argc, char** argv)main16,306
+setList(cell_t* p, int data)setList42,983
+deleteList(cell_t* p)deleteList65,1413
+allDeleteList(cell_t *p)allDeleteList84,1677
+
+Makefile,1053
+CC	=	gccCC3,11
+OBJS1	=	hello.oOBJS14,20
+CMD1	=	helloCMD15,36
+OBJS2	=	switch.oOBJS26,49
+CMD2	=	switchCMD27,66
+OBJS3	=	for.oOBJS38,80
+CMD3	=	forCMD39,94
+OBJS4	=	while.oOBJS410,105
+CMD4	=	whileCMD411,121
+OBJS5	=	type.oOBJS512,134
+CMD5	=	typeCMD513,149
+OBJS6	=	function.oOBJS614,161
+CMD6	=	functionCMD615,180
+OBJS7	=	pointer.oOBJS716,196
+CMD7	=	pointerCMD717,214
+OBJS8	=	data_struct.oOBJS818,229
+CMD8	=	data_structCMD819,251
+OBJS9	=	data_struct2.oOBJS920,270
+CMD9	=	data_struct2CMD921,293
+OBJS10	=	scope.oOBJS1022,313
+CMD10	=	scopeCMD1023,330
+OBJS11	=	file-read.oOBJS1124,344
+CMD11	=	file-readCMD1125,365
+OBJS12	=	file-write.oOBJS1226,383
+CMD12	=	file-writeCMD1227,405
+OBJS13	=	sock_udp_svr.oOBJS1328,424
+CMD13	=	sock_udp_svrCMD1329,448
+OBJS14	=	sock_udp_cli.oOBJS1430,469
+CMD14	=	sock_udp_cliCMD1431,493
+OBJS15	=	sock_tcp_svr.oOBJS1532,514
+CMD15	=	sock_tcp_svrCMD1533,538
+OBJS16	=	child.oOBJS1634,559
+CMD16	=	childCMD1635,576
+OBJS17	=	linklist.oOBJS1736,590
+CMD17	=	linklistCMD1737,610
+
+sock_tcp_svr.c,84
+#define PORT PORT9,251
+#define MAXDATA MAXDATA10,303
+int main(void)main12,362
+
+switch.c,43
+int main(int argc, char** argv){main5,60
+
+pointer.c,42
+int main(int argc,char** argv){main3,20
+
+child.c,61
+#define CHILD_NUM CHILD_NUM6,85
+int main(void){main8,107
+
+while.c,43
+int main(int argc, char** argv){main4,40
+
+type.c,43
+void main(int argc,char** argv){main3,20
+
+data_struct2.c,123
+  struct record{record6,78
+    int id;id7,95
+    char name[10];name8,107
+int main(int argc,char** argv){main11,132
+
+sock_udp_svr.c,45
+void main(int argc,char** argv){main11,193
+
+control.c,43
+int main(int argc, char** argv){main3,20
+
+file-write.c,23
+void main(){main3,20

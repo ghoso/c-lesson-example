@@ -1,0 +1,14 @@
+# Makefile simple
+
+CC	=	gcc
+OBJS	=	hello.o
+CMD	=	hello
+
+$(CMD):$(OBJS)
+	$(CC) -o $@ $(OBJS)
+
+.c.o:
+	$(CC) -c $<
+
+clean:
+	$(RM) $(OBJS) $(CMD)
